@@ -28,10 +28,8 @@ Application stack:
 
 Project is fairly easy to set up.
 
-<!-- - TODO: add git path - -->
-
 ```
-$ git clone [] && cd swapdo
+$ git clone https://github.com/d7ark/swapdo.git && cd swapdo
 $ npm install
 $ npm start
 ```
@@ -56,7 +54,7 @@ npm run-script coverage-test
 
 ## Thanks
 
-Heartful thanks to everyone (especcialy open source community) making learning new things easy and fun. Below are listed sites that helped me get this started and running.
+Heartful thanks to everyone making learning new things easy and fun. Below are listed sites that helped me get this started and running.
 
 - [nodeschool's workshoppers](https://nodeschool.io/#workshoppers) especcialy esnextgeneration, learngenerators, kickoffkoa,
 - [multiple](https://github.com/dwyl/learn-tdd)[dwyl](https://github.com/dwyl/learn-elm-architecture-in-javascript/)[tutorials](https://github.com/dwyl/learn-tape) and more,

@@ -4,17 +4,23 @@
     "description": "ToDo list using koa, mongo, flow, tape, istanbul",
     "main": "server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "./node_modules/.bin/flow-remove-types src/ --out-dir lib/ && node lib/server.js",
+        "test": "./node_modules/.bin/flow-remove-types src/ --out-dir lib/ && ./node_modules/.bin/jest --forceExit",
         "coverage-test": "echo \"Error: no coverage test specified\" && exit 2"
     },
     "author": "Darek Antkowicz",
     "license": "ISC",
     "dependencies": {
-        "koa": "2.3.0"
+        "koa": "2.3.0",
+        "mongoose": "^4.11.11"
     },
     "devDependencies": {
         "flow-bin": "0.53.1",
+        "flow-remove-types": "^1.2.1",
         "istanbul": "0.4.5",
+        "jest": "^20.0.4",
+        "koa-route": "^3.2.0",
+        "supertest": "^3.0.0",
         "tape": "4.8.0"
     }
 }

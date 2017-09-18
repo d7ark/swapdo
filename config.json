@@ -1,0 +1,13 @@
+{
+    "db" : {
+        "server": "localhost/swapdo",
+        "options": {
+            "useMongoClient": true }
+    },
+
+    "test" : {
+        "db" : {
+            "server" : "localhost/swapdotest"
+        }
+    }
+}
